@@ -37,10 +37,11 @@ public class Pathfinder : MonoBehaviour
             {
                 waypointIndex++;
             }
-            else
-            {
-                Destroy(gameObject);
-            }
         }
+        else
+        {
+            Destroy(gameObject);
+        }
+        
     }
 }
